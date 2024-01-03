@@ -1,0 +1,60 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.AboutUs{
+    color: $textColor;
+    font-family: $font-family-title;
+    font-style: $font-style-title;
+    line-height: $line-height-title;
+    .sideText1{
+        margin:$margin6;
+        @media screen and (max-width: $mediaBreak) { 
+            margin:$zero; 
+          }
+        .getstart{      
+            font-size: $font-size-para;          
+            font-weight: $weightGetStart;
+            
+        }
+        .HowWorks{          
+            font-size: $font-size-title;
+            font-weight: $font-weight-title;
+            @media screen and (max-width: $mediumBreak) { 
+                font-size: $fontsizeForty; 
+              }
+    }
+    .marginExtra{
+        margin-right: $margin40;
+        @media screen and (max-width: $mediaBreak) { 
+            margin-right:$margin30; 
+          }
+          @media screen and (max-width: $mediaBreak1) { 
+            margin-right:$fifteen; 
+          }
+        @media screen and (max-width: $mediumBreak) { 
+            margin-right:$zero;
+            margin: $zero; 
+            padding-right: $zero;
+            padding-left: $zero; 
+            max-width: $widthhundr;  
+          }
+    }
+
+    }
+    .alignItems{
+        align-self: $center;
+        .name{ 
+            font-size: $font-size-para;  //20          
+            font-weight: $font-weight-title;//700          
+        }
+        .desc{
+       font-weight: $font-weight-para;//400
+        }
+        .para{
+        font-weight: $weightGetStart;//500
+
+        }
+    }
+}

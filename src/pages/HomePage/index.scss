@@ -1,0 +1,121 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common//media.scss";
+
+// this is main section
+.Banner-Section{
+    color:$textColor;
+    font-family: $font-family-title;  
+    font-style: $font-style-title; 
+    line-height: $line-height-title;
+    background: $gradient;
+
+    // === this is the first column
+    .side-content {
+        padding: $padding1;
+    
+        @media (max-width: $mediumBreak1) {
+          padding: $padding2; 
+        }
+  
+    .banner-title{
+        color:$textColor;
+        font-family: $font-family-title;
+        font-size: $font-size-title;
+        font-style: $font-style-title;
+        font-weight: $font-weight-title;
+        line-height: $line-height-title;
+    }
+    .bannaer-para{
+        color:$textColor;
+        font-family: $font-family-title;
+        font-size: $font-size-para;
+        font-style: $font-style-title;
+        font-weight: $font-weight-para;
+        line-height: $line-height-title;
+    }
+}
+
+
+.signin{
+    color:$textColor;
+    text-align: $center;    
+    font-size: $fontsizeTen;    
+    font-weight: $font-weight-para;    
+    align-self: $center;
+    }
+    .error{
+        color: $colorRed;
+        font-size: $fontsizeTen;
+    }
+    
+.input-placeholder {
+    &::placeholder {
+      color: $textColor; 
+      font-style:$font-style-title ; 
+    
+      
+    }
+    background: none !important;
+    border:$borderInpt ;
+     border-radius: $borderInpRadius;
+   
+}  
+.start-getbtn{
+    background: $buttonBG;
+    border-radius: $btnradius;
+    font-weight:$font-weight-title;
+    border-color:$buttonBG ;
+}
+.buttonSign{
+    border-radius: $btnradius;
+    border:$border1;
+    background: $positionNone;
+}
+.checkMe {
+    input[type="checkbox"] {
+        border-radius:$borderInpRadius;
+        border: $borderChechBox;
+      text-align: $center;
+    
+    
+    }
+    font-size: $font-size-para;
+    font-weight: $weightGetStart;
+    
+
+}
+// .custom-check .custom-control-input:checked
+// ~ .custom-control-input:checked::before{
+//     border-color: blue;
+// }
+.parent{
+    position: $parentPosition;
+}
+.child{
+    position: $childPosition;
+    top: $fiveTop;
+    right: $fiveRight;
+}
+
+.orLogin{
+    color: $textColor;
+text-align: $center;
+font-family: $fontFamilyLato;
+font-size: $fontsizefourteen;
+font-style: $font-style-title;
+font-weight: $weightGetStart;
+line-height:$line-height-title;
+}
+
+.box{
+    width: $widthOne;
+    height: $height1;
+    flex-shrink: $zero;
+    border-radius: $btnradius;
+    border: $border1;
+}
+
+}
+

@@ -1,0 +1,45 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.FooterSection{
+    background: $Footerbackground;
+    border-bottom:$borderWork;
+    color: $textColor;
+    font-family:$font-family-title;
+    line-height: $line-height-title;
+    font-style: $font-style-title;
+    .location{
+    font-size: $font-size-para;
+    font-weight: $fontWeghtSix;
+
+    }
+    .folowDiv{
+        text-align: $right;
+        @media screen and (max-width: $mediumBreak) { // Adjust the breakpoint as needed
+           text-align: $center;// Remove margin on mobile screens
+          }
+        .followOn{
+            font-size: $font-size-title;
+             font-weight: $fontWeghtSix;
+        
+            }
+            .footerIcon{
+                justify-content: end;
+                @media screen and (max-width:$mediumBreak) {
+                    justify-content: $center;
+                    
+                }
+            }
+    }
+    .followOn{
+    font-size: $font-size-title;
+     font-weight: $fontWeghtSix;
+
+    }
+    .listItems{
+        list-style: $positionNone;
+        font-size: $placeHolderSize;
+    }
+}

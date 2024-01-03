@@ -1,0 +1,86 @@
+/* Circular.scss */
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.mainDiv {
+  width:$widthfifFive;
+  margin-left:$thirtyFive;
+  margin-left:  $thirty;
+  @media (max-width: $media1) {
+    margin-left: $widthOne; 
+    width: $widthThirty;
+  }
+  @media (max-width: $media2) {
+    margin-left: $size132;  
+  }
+  @media (max-width: $mediumBreak1) {
+    
+    margin-left: $size215;  
+  }
+  @media (max-width: $media3) {
+    
+    margin-left: $size192;  
+  }
+  @media (max-width: $media4) {
+    
+    margin-left: $size142;  
+  }
+  @media (max-width:$smallBreak) {
+    width: $fortyFive;
+    margin-left: $size95;  
+  }
+  @media (max-width: $xsmallBreak) {
+    
+    margin-left: $font-size-title;  
+  }
+  // @media (max-width: 550px) {
+    
+  //   margin-left: 160px;  
+  // }
+}
+
+.faceBookDiv{
+  width:$widthfifFive;
+  margin-left: $thirtyFive;
+  @media (max-width:$media1) {
+    margin-left: $widthOne;  
+    width: $widthThirty;
+  }
+  @media (max-width: $media2) {
+    margin-left: $size132;  
+  }
+  @media (max-width: $mediumBreak1) {
+    margin-left: $size215;    
+  }
+  @media (max-width: $media3) {
+    
+    margin-left: $size192;  
+  }
+  @media (max-width:$media4) {
+    
+    margin-left: $size142;  
+  }
+  @media (max-width: $smallBreak) {
+    width: $fortyFive;
+    margin-left: $size95; 
+  }
+  @media (max-width: $xsmallBreak) {
+    
+    margin-left: $font-size-title;  
+  }
+  // @media (max-width: 550px) {
+    
+  //   margin-left: 160px;  
+  // }
+}
+
+.CircularProgressbar{
+
+@media screen and (max-width) {
+  margin-left: $fontsize100;
+}
+
+
+}

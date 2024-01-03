@@ -1,0 +1,318 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.main-section{
+    color:$textColor;
+    font-family:$fontFamilyLato;  
+    font-style: $font-style-title; 
+    line-height: $line-height-title;
+    background: $ColorGrey;
+
+    
+    .column1{
+
+        .title{
+           
+            font-size: $placeHolderSize; //16     
+            font-weight: $font-weight-title; //700
+    
+        }
+        .checkDiv{
+            .checkMe{
+                .form-check-input[type=checkbox] {
+                    border-radius: $size025;
+                    border:$borderChechBox;
+                }
+                .form-check-label {
+                    margin-bottom: 0;
+                    font-family: $fontFamilyLato;
+                    font-size: $placeHolderSize; //16     
+                    font-weight: $weightGetStart;//500
+                    margin:$marginCheckLabel;
+    
+                }
+            }
+    
+        }
+        .radiDiv{
+            .radioMe{
+                .form-check-input[type=radio] {
+                    border-radius: $fiftyRadius;
+                    border: $borderChechBox;
+                }
+                .form-check-label {
+                    margin-bottom: 0;
+                    font-family: $fontFamilyLato;
+                    font-size: $placeHolderSize; //16     
+                    font-weight: $weightGetStart;
+                    margin:$marginCheckLabel;
+    
+                }
+            }
+            .small-text{                           
+                font-size: $fontsizeTen;//10
+                font-weight: $font-weight-title;//700
+                margin:$margin1;
+
+            }
+
+            .small{
+                border-right: none;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                width: $width45;
+                height: $height1;
+                font-size: $placeHolderSize; //16     
+                font-weight: $weightGetStart;//500
+                .form-control:focus{
+                    border-color: none;
+                    box-shadow: none;
+                }
+
+
+            }
+            
+            .big {
+                .form-control:focus {
+                    color: none !important;
+                    background-color: none !important;
+                    border-color:none !important;
+                    outline: 0;
+                    box-shadow:none !important;
+                }
+               
+                width: $width110;
+                height: $height1;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            
+            }
+        }
+        // date css design
+        .dateDiv{
+
+            /* DatePicker.css */
+        .custom-date-picker {
+                    position: $parentPosition;
+                }
+                
+                .date-input {
+                    position:  $parentPosition;
+                    display: $flexposition;
+                    align-items: $center;
+                }
+                
+                .form-control {
+                    padding-right: $thirty; 
+                }
+                
+                .calendar-icon {
+                    position: $childPosition;
+                    right: $fontSize10; 
+                    top:$fontSize10;
+                    cursor: $pointer;
+                    z-index: 1; 
+                }
+                
+  .react-datepicker-popper{
+    z-index: 1000;
+  }
+            .start-text{
+                font-family: $fontFamilyLato;
+                font-size: $placeHolderSize; //16     
+                font-weight: $weightGetStart;//500
+            }
+            // .parent{
+            //     position: relative;
+            // }
+            // .child{
+            //     position: absolute;
+            //     right: 25px;
+            //     top: 10px;
+            // }
+        }
+        // audience css design
+        .audienceDiv{
+           
+            .loc-text{
+                font-family: $fontFamilyLato;
+                font-size:$fontSize18; //16     
+                font-weight: $weightGetStart;//500
+            }
+            .input-field {
+                
+              
+                // padding: 0.375rem 0.75rem;
+                background: $colorWhite;
+                position: $parentPosition;
+                font-size:$fontSize1;
+                padding:$padding5 ;
+                height: $height1;
+                font-weight: $font-weight-para;
+                // @media screen and (max-width:1200px) {
+                //     font-size: 0.7rem;
+                // }
+              
+            }
+            .radiusInputGroup{
+                .dropdownButton .dropdown-menu .dropdown-item {
+                    width: $seventy;
+                  }
+                width: $widthfifty;
+                @media screen and (max-width:$mediaBreak) {
+                    width:$widthhundr;
+                }
+            }
+            .genderInputGroup{
+                .dropdown-toggle{
+                    border-left: $positionNone;
+                }
+                width: $widthfifty;
+                @media screen and (max-width:$mediaBreak) {
+                    width: $widthhundr;
+                    margin-left: $fontfifteen;
+                }
+            }
+            .ageDiv{
+
+                @media screen and (max-width:$mediaBreak) {
+                    margin:$margin2;
+                }
+                .ageInputGroup{
+                    .dropdown-toggle{
+                        border-left: $positionNone;
+                    }
+                        width: $widthhundr;
+                        @media screen and (max-width:$mediaBreak) {
+                            margin-left: $fontseven;
+                           
+                        }
+                    }
+            }
+    
+          .dropdown-toggle {
+            width: $size32;
+            height: $height1;
+
+            border: $borderWork;
+            background: $colorWhite;
+            color: $textColor;
+            box-shadow: $colorWhite;
+            padding-top: $borderInpRadius;
+          
+           
+          }
+        
+        }
+       .demo{               
+            font-family: $fontFamilyLato;
+            font-size: $placeHolderSize;
+            font-weight: $fontWeghtSix;
+            .demo-input{
+                color:$GrayColor;
+                font-family: $fontFamilyLato;
+                font-size: $placeHolderSize;
+                font-weight: $weightGetStart;
+                
+            }
+
+
+        }
+        .demo-button{
+            border-radius: $fontSix;
+           background: $highlightingColor;
+          border-color: $highlightingColor ;
+          color: $colorWhite;
+            text-align: $center;
+            font-family: $fontFamilyLato;
+            font-size: $fontSize14;
+            font-weight: $font-weight-title;
+        }
+      
+    }
+    .column1{
+        .big-card{
+            border-color:$colorWhite;
+        }
+    }
+   .column2{
+    .smallCard{
+        border-color:$colorWhite;
+        height: $fiftySeven;
+       
+        @media screen and (max-width:$mediaBreak) {
+           height: $font61;
+            
+        }
+        @media screen and (max-width:$mediumBreak1) {
+            padding-bottom: $font76;
+            
+        }
+    }
+    .title{
+        color:$textColor;
+        font-family:$fontFamilyLato;  
+        font-size: $fontSize18; 
+        font-weight: $font-weight-title;   
+    }
+    .para{
+        color: $Color47474;
+        font-family:$fontFamilyLato; 
+        font-size: $placeHolderSize;   //16    
+        font-weight: $fontWeghtSix; //600
+        line-height: $font-size-para; /* 125% */
+    }
+    .input-div{
+        border-radius: $borderInpRadius;
+        border: $border1;
+        background: $colorWhite;
+        display: $flexposition;
+        width: $eighty;
+        height: $twentyThree;
+        padding: $fontSix $fontSize10;
+        align-items: $center;
+        gap: $fontSize10;
+        // .number{            
+        //     text-align: $center;
+        //     font-family: $fontFamilyLato;
+        //     font-size: $fontSize14;      //14     
+        //     font-weight: $fontWeghtSix;  //600
+           
+        // }
+        /* Your CSS file or style section */
+
+/* Target the input field with class 'number' */
+
+  
+    }
+   
+    .number::placeholder {
+      
+        color: $textColor;
+        text-align: $center; 
+        font-family: $fontFamilyLato; 
+        font-size: $fontSize14;
+        font-weight: $fontWeghtSix; 
+      }
+    .estimate-title{    
+        font-family: $fontFamilyLato;
+        font-size: $font-size-para;
+        font-weight: $font-weight-title;
+    }
+    .reach{
+        color: $textColor;
+        font-family: $fontFamilyLato;
+font-size: $thirdteen;
+font-weight: $font-weight-title;
+    }
+    .ReachNum{
+        color: $textColor;
+        font-family: $fontFamilyLato;
+        font-size:  $fontSize14;
+        font-weight: $font-weight-para;
+    
+    }
+   }
+}

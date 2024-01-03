@@ -1,0 +1,41 @@
+{
+  "data": {
+    "audienceDefinition": {
+      "title": "Here are your Audience definition",
+      "para": "The Estimated Population available across the platform, based on given geo"
+    },
+    "estimatedRanges": {
+      "google": "123345",
+      "facebook": "234234"
+    },
+    "platformData": {
+      "facebook": {
+        "total": "224332",
+        "estimated": "2330"
+      },
+      "google": {
+        "total": "222332",
+        "estimated": "300,000"
+      }
+    },
+    "click": {
+      "clickData": "2%"
+    },
+    "ROI": {
+      "Google": {
+        "DailyReach": "7400",
+        "MonthlyReach": "370,000",
+        "CPC": "Rs. 0.13"
+      },
+      "Facebook": {
+        "DailyReach": "933",
+        "MonthlyReach": "46,667",
+        "CPC": "Rs. 1.02"
+      }
+    },
+    "data": {
+      "Google": "3004",
+      "Facebook": "6003"
+    }
+  }
+}

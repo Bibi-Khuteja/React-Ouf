@@ -1,0 +1,11 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.circleBarCodeImg{
+    width: $widthhundr;
+    @media screen and (max-width:$mediumBreak1) {
+        width:$twofifty;
+    }
+}

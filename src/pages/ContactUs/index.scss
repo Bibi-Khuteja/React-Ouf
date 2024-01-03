@@ -1,0 +1,64 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.contact{
+    background: $backgroundWork;
+    border-bottom:$borderWork;
+        color: $textColor;
+        font-family:$font-family-title;
+        line-height: $line-height-title;
+        font-style: $font-style-title;
+
+        .contact-title{                       
+                font-size: $font-size-title;
+                font-weight: $font-weight-title;
+
+        }
+        .main{
+            padding: $padding3;
+            // @media screen and (max-width: 1200) { 
+            //     padding: 10px 137px;
+            //   }
+              @media screen and (max-width: $mediumBreak) { 
+                padding: $fontSize10 $fontSize10;
+              }
+            .contact-para{
+                font-size: $font-size-para;
+                $font-weight-para: $font-weight-para;
+               
+            .span-text{
+               font-weight: $font-weight-title;
+    
+            }
+    
+            }
+        }
+
+        .input-placeholder {
+            &::placeholder {
+              color: $textColor;
+              font-style:$font-style-title ; 
+            
+              
+            }
+            background:$positionNone !important;
+            border:$borderInpt ;
+             border-radius: $borderInpRadius;
+           
+        } 
+        .error{
+          color:$colorRed;
+          font-size: $fontsizeTen;
+        }
+        .start-getbtn{
+            background: $buttonBG;
+            border-radius: $btnradius;
+            font-weight:$font-weight-title;
+            border-color:$buttonBG ;
+            font-size: $fontsizefourteen;
+        }
+      
+
+}

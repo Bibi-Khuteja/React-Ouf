@@ -1,0 +1,214 @@
+@import "../../common/colors.scss";
+@import "../../common/fonts.scss";
+@import "../../common/positions.scss";
+@import "../../common/media.scss";
+
+.Works{
+   
+    background: $backgroundWork;
+    border-bottom:$borderWork;
+
+    .circleDiv{
+        margin-left: $eighty;
+        color: $textColor;
+        font-family:$font-family-title;
+        line-height: $line-height-title;
+        font-style: $font-style-title;
+        @media screen and (max-width: $mediumBreak) { 
+            margin: $zero;
+          }
+        .parent{
+            position: $parentPosition;
+
+        }
+        .child{
+            position: $childPosition;
+            top: $height1;
+            left:$height1;
+            .one{
+              
+                text-align: $center;
+               
+                font-size: $height1;
+                
+                font-weight: $fontWeghtSix;
+                
+            }
+              }
+              .submitL{
+               
+                font-size:$font-size-para;
+                
+                font-weight: $font-weight-title;
+              
+                margin-left: $marginThirtyF;
+              }
+              .submitP{                
+                font-size: $font-size-para;               
+                font-weight: $weightGetStart;
+                margin-left: $marginThirtyF;
+                padding: $paddingFif;
+              }
+    }
+    // second
+   
+  .ColumnSec{    
+        .getstart{      
+            font-size: $font-size-para;          
+            font-weight: $weightGetStart;
+            
+        }
+        .HowWorks{          
+                font-size: $font-size-title;
+                font-weight: $font-weight-title;
+        }
+        .sideText{
+            margin: $marginTR;
+            text-align: $right;
+            @media screen and (max-width: $mediumBreak) { 
+                margin: $fontsizeTen; 
+                text-align: $center;
+              }
+        }
+     
+        .marginT{
+            margin-top: $margin13;
+            @media screen and (max-width: $mediumBreak) { 
+                margin-top:$height1; 
+              }
+        }
+        
+    }
+    
+}
+
+.GetToKnow{
+    background: $backgroundWork;
+    border-bottom:$borderWork;
+    .sideText1{
+      // text-align: $right;
+      @media screen and (max-width:$smallBreak){
+        text-align: $center;
+      }
+        margin:$margin3;
+        @media screen and (max-width: $mediaBreak) {
+            margin:$zero;
+          }
+        .getstart{      
+            font-size: $font-size-para;          
+            font-weight: $weightGetStart;
+            
+        }
+        .HowWorks{          
+            font-size: $font-size-title;
+            font-weight: $font-weight-title;
+            @media screen and (max-width: $mediumBreak) { 
+                font-size: $fontsizeForty;
+              }
+    }
+    .marginExtra{
+        margin-right: $margin40;
+        @media screen and (max-width: $mediaBreak) { 
+            margin-right:$margin30;
+          }
+          @media screen and (max-width: $mediaBreak1) { 
+            margin-right:$fifteen;
+          }
+        @media screen and (max-width: $mediumBreak) { 
+            margin-right:$zero;
+            margin: $zero; 
+            padding-right: $zero; 
+            padding-left: $zero;
+            max-width:$widthhundr;  
+          }
+    }
+
+    }
+    .sideText2{
+      text-align: $right;
+      @media screen and (max-width:$smallBreak) 
+      {
+        text-align: $center;
+        
+      }
+
+    }
+    .circleBarCodeImg{
+      width: $widthhundr;
+      @media screen and (max-width:$mediumBreak1) {
+          width: $twofifty;
+      }
+  }
+    .Lorem{
+        font-size:$font-size-title;
+        font-weight: $fontWeghtSix;
+
+    }
+    .sidePara{
+        margin:$margin4;
+
+        font-size:$font-size-para;
+
+        font-weight: $font-weight-para;
+
+        @media screen and (max-width: $mediumBreak) { 
+            margin:$zero; 
+          }
+    }
+   .sidePara1{
+    margin:$margin5;
+
+    font-size: $font-size-para;
+
+    font-weight: $font-weight-para;
+
+    @media screen and (max-width: $mediumBreak) { 
+        margin:$zero; 
+      }
+}
+.spantext{
+    font-weight:$font-weight-title;
+}
+
+
+.parent {
+  position: $parentPosition;
+}
+
+.parent-image {
+  width: $widthhundr; 
+  max-width: $font765;
+  height: $positionauto;
+}
+
+.child {
+  position: $childPosition;
+  top: $font111;
+  right: $font147;
+}
+
+.child-image {
+  width:$widthhundr; 
+  max-width: $font765;
+  height: $positionauto;
+}
+
+
+@media screen and (max-width: $mediumBreak1) {
+  .parent-image {
+    max-width: $sevenHrd;
+    height: $positionauto;
+  }
+
+  .child,
+  .child-image {
+    position: $positionStatic;
+    top: $positionauto;
+    right: $positionauto;
+    max-width: $sevenHrd;
+    height: $positionauto;
+  }
+}
+
+
+   }

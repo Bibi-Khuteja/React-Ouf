@@ -1,0 +1,33 @@
+$mediumBreak:769px;
+$mediaBreak:1200px;
+$smallBreak:425px;
+$xsmallBreak:350px;
+$mediumBreak1:767px;
+$mediaBreak1:991px;
+$media1:992px;
+$media2:895px;
+$media3:650px;
+$media4:570px;
+
+
+.Works{
+    .circleDiv{
+        @media screen and (max-width: $mediumBreak) { // Adjust the breakpoint as needed
+            margin: 0; // Remove margin on mobile screens
+          }
+    }
+    .ColumnSec{
+
+   
+    .sideText{
+        @media screen and (max-width: $mediumBreak) { // Adjust the breakpoint as needed
+            margin: 10px; // Remove margin on mobile screens
+          }
+    }
+    .marginT{
+        @media screen and (max-width: $mediumBreak) { // Adjust the breakpoint as needed
+            margin-top: 40px; // Remove margin on mobile screens
+          }
+    }
+}
+}
